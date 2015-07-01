@@ -1,0 +1,3 @@
+[submodule "src/input"]
+	path = src/input
+	url = https://github.com/toimelin/input-toi.git

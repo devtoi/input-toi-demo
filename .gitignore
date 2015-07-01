@@ -1,0 +1,55 @@
+# Visual studio project files
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.opensdf
+*.sdf
+*.suo
+
+# Other visual studio files
+*.pdb
+*.ilk
+*.tlog
+*.log
+
+# Windows thumbnails
+Thumbs.db
+
+# Folders
+build/
+
+# Compiled
+/bin/
+src/.ycm_extra_conf.pyc
+!/bin/window/Debug/SDL2.dll
+!/bin/window/Release/SDL2.dll
+
+# Utilities
+!/bin/linux/Debug/valgrind.suppress
+!/bin/linux/Debug/leakcheck.sh
+
+# CMake files
+*CMakeCache.txt
+*CMakeFiles
+*Makefile
+*Testfile.cmake
+cmake_install.cmake
+install_manifest.txt
+
+# Other
+.directory
+
+# Config files
+/cfg/*.cfg
+
+# Temporary files
+*.swp
+*.swo
+
+*.*~
+*.kdev4
+*.kdev_include_paths
+*.swp
+*.kate-swp
+*.ninja*
